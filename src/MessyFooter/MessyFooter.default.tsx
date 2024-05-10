@@ -519,11 +519,11 @@ export function MessyFooterDefault(props: TMessyFooterProps) {
               textInputRef={textInputRef}
               onChangeText={onChangeText}
             />
-            <MessyFooterEmoji emojiShared={emojiShared} />
+            <MessyFooterEmoji emojiShared={emojiShared} /> 
           </View>
           <MessyFooterSend onPress={onPressSendText} />
         </View>
-        <MessyFooterAction />
+        {/* <MessyFooterAction /> */}
       </View>
       {/* fakeview keyboard */}
       <Animated.View style={fakeViewKeyboard} />
